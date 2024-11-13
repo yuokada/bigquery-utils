@@ -37,19 +37,21 @@
 
     <dependencies>
 
-        <!--     Install BigQuery JDBC driver locally: -->
-<!--             mvn install:install-file \-->
-<!--                 -Dfile=/Users/user/Downloads/SimbaJDBCDriverforGoogleBigQuery42_1.5.2.1005/GoogleBigQueryJDBC42.jar \-->
-<!--                 -DgroupId=com.simba.googlebigquery \-->
-<!--                 -DartifactId=googlebigquery-jdbc42 \-->
-<!--                 -Dversion=1.5.2.1005 \-->
-<!--                 -Dpackaging=jar \-->
-<!--                 -DgeneratePom=true-->
+<!--
+             Install BigQuery JDBC driver locally:
+             mvn install:install-file \
+                 -Dfile=/Users/user/Downloads/SimbaJDBCDriverforGoogleBigQuery42_1.5.2.1005/GoogleBigQueryJDBC42.jar \
+                 -DgroupId=com.simba.googlebigquery \
+                 -DartifactId=googlebigquery-jdbc42 \
+                 -Dversion=1.5.2.1005 \
+                 -Dpackaging=jar \
+                 -DgeneratePom=true
+-->
 
         <dependency>
             <groupId>com.simba.googlebigquery</groupId>
             <artifactId>googlebigquery-jdbc42</artifactId>
-            <version>1.5.2.1005</version>
+            <version>1.6.1.1002</version>
         </dependency>
 
         <!--     Install other dependencies from Maven public repo: -->
